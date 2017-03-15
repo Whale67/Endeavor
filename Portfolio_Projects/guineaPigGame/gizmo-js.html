@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>gizmo</title>
+	<style type="text/css">
+body {
+	background-image: url('gizmo.jpg');
+	background-repeat: no-repeat;
+	display: block;
+	margin: auto;
+	font-family: Helvetica, sans, sans-Serif;
+	background-size: 100%;
+}	
+
+#box {
+	background-color: #fff;
+	opacity: 0.8;
+	width: 400px;
+	height: 150px;
+	padding: 10px;
+	margin-left: 100px;
+	margin-top: 30px;
+	border: 3px solid black;
+	border-radius: 5px;
+
+}
+h1, p {
+	text-align: center;
+	padding: 5px;
+
+}
+
+a {
+	color: #000;
+}
+a:hover {
+	background-color: #000;
+	color: #fff;
+}
+		
+	</style>
+</head>
+<body>
+<div id="box">
+<h1>Guess the Pet</h1>
+
+<p>
+	Refresh the page to start over or click the link to return to the page you were on.
+	<br>
+	<a href="portfolio.html">HappyCalmCoding Portfolio </a>
+</p>
+
+</div>
+
+
+
+<script>
+alert("Wheek! My name is Gizmo. See if you can guess what kind of animal I am.");
+
+var userAnswer = ['guinea pig', 'clue'];
+var question1 = prompt("I wheek when I want attention, popcorn when I am happy and chatter when I am upset. If you can guess already, tell me what I am. If you need another clue, type the word 'clue' below");
+
+
+if (question1.toLowerCase() == userAnswer[0]) {
+	alert("Wheek, wheek, that is amazing. I am a guinea pig!");
+}
+else if (question1.toLowerCase() == userAnswer[1]) {
+	alert('I am native to South America, you can find me in any pet store, I eat Timothy hay and almost every kid has had one of my kind as a pet');
+	if (userAnswer[1]) {
+	alert("Can you guess what I am now? If not, then I will tell you, I am a guinea pig!");
+}
+};
+
+alert("Now try to guess what will make me popcorn.")
+var userChoice = ['hay', 'singing'];
+var question2 = prompt("Perhaps timothy hay or someone singing to me? Type 'hay' or 'singing'.");
+
+	
+   if (question2.toLowerCase() == userChoice[0]) {
+		alert('I love fresh hay and I love to popcorn.');
+	}
+   else if (question2.toLowerCase() == userChoice[1]) {
+		alert('Why would a guinea pig like anyone to sing? Chatter chatter.');
+	}
+
+</script>
+
+</body>
+</html>

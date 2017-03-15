@@ -1,0 +1,33 @@
+//add prompt to get name to add to todo list
+var userName = prompt("Welcome to the Todo List! Enter your name for a personalized list!");
+$("h1").prepend(userName + "'s ");
+
+
+//Check off specific todos by clicking
+$("ul").on("click", "li", function(){
+	$(this).toggleClass("completed");
+});
+
+//click on x to delete togo
+$("ul").on("click", "span", function(event){
+    $(this).parent().fadeOut(500,function(){
+      $(this).remove();
+    });
+    event.stopPropagation();
+});
+
+$("input[type='text']").keypress(function(event){
+    if(event.which === 13){
+    	//grabbing new todo text from input
+    	var todoText = $(this).val();
+        $(this).val("");
+       //creat new li and add to ul
+       $("ul").append("<li><span><i class='fa fa-minus-square-o'></i></span> " + todoText + "</li>");
+  }
+});
+
+$(".fa-plus").click(function(){
+	$("input[type='text']").fadeToggle();
+});
+
+

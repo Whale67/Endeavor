@@ -1,0 +1,190 @@
+html, body {
+	background-image: url('mountains.jpg');
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: auto;
+	overflow-x: hidden;
+	font-family: 'Berkshire Swash', Helvetica, sans-serif;
+	color: #000;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}    
+
+.wrap {
+	width: 100%;
+	height: auto;
+	min-width: 900px;
+	margin: 0 auto;
+}
+
+.social {
+	position: absolute;
+	top: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.social li {
+	list-style-type: none;
+	display: inline;
+	margin-right: 10px;
+
+}
+
+.social a {
+	text-decoration: none;
+
+}
+
+.social img {
+	width: 40px;
+	height: 40px;
+}
+
+.header {
+	text-align: center;
+	background: rgba(0,0,0,0.15);
+	width: 100%;
+	height: 150px;
+	margin: 0;
+	margin-top: 60px;
+	padding-bottom: 5px;
+}
+
+h1 {   
+   font: 'Berkshire Swash', Helvetica, sans-serif;
+   color: #2b2b2b;
+   text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0.15);
+   font-size: 75px;
+   margin: 0;
+}
+
+.headPara1 {
+    color: #2b2b2b;
+    font-size: 20px;
+    margin: 0;
+}
+
+.headPara2 {
+	color: #2b2b2b;
+	font-size: 12px;
+	margin: 0;
+}
+
+.navigation {
+	width: 90%;
+	height: 40px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	font-size: 18px;
+	padding: 0;
+    line-height: 10px;
+}
+
+.navigation li {
+	list-style-type: none;
+	display: inline;
+
+}
+
+.navigation a {
+	text-decoration: none;
+	color: #2b2b2b;
+	padding-right: 40px;
+	padding-left: 40px; 
+	text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0.15);
+}
+
+.container {
+	margin-top: 150px;
+}
+
+.article {
+	background-color: #fff;
+	opacity: 0.7;
+	height: auto;
+	margin-left: 100px;
+	width: 70%;
+	padding: 30px;
+	float: left;
+	margin-bottom: 50px;
+}
+
+.article p {
+	font-family: Helvetica;
+	font-size: 17px;
+	text-indent: 30px;
+	line-height: 25px;
+}
+
+.snippet1 {
+	margin: auto;
+	height: auto;
+	padding: 10px;
+	padding-bottom: 20px;
+} 
+
+.snippet {
+	margin: auto;
+	height: auto;
+	padding: 10px;
+	padding-bottom: 20px;
+	border-top: 1px dashed black;
+}
+
+
+.btnStyle {
+	width: 125px;
+	height: 30px;
+	background-color: #000;
+	color: #fff;
+	float: right;
+    margin-top: 10px;
+}
+
+.aside {
+	float: right;
+	clear: right;
+	width: 15%;
+	height: 285px;
+	text-align: center;
+	background-color: #fff;
+	padding-top: 10px;
+}
+
+.newsletter h3 {
+	margin-top: 20px;
+}
+
+blockquote {
+	font-size: 15px;
+}
+
+.signUp {
+	margin-top: 5px;
+}
+
+.footer {
+	background-color: #000;
+	opacity: 0.5;
+	width: 100%;
+	height: 50px;
+	margin: 0;	
+	clear: both;
+	text-align: center;
+	font-size: 15px;
+	padding-top: 5px;
+}
+
+.footer li {
+	list-style-type: none;
+	display: inline;
+	padding: 5px 20px 5px 20px;
+	color: #fff;
+}
+
